@@ -117,6 +117,27 @@ body {
   color: #e1bc17;
 }
 
+.nav-link{
+  position: relative;
+}
+
+.nav-link::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #2bd8ad;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transition: 300ms ease;
+  transform-origin: left;
+}
+
+.nav-link:hover::after{
+  transform: scalex(1);
+}
+
 .nav-link a {
   text-transform: uppercase;
   color: var(--text-clr);
