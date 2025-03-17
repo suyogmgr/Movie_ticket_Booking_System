@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,7 +31,13 @@
             </li>
             <li class="nav-link"><a href="#">Customer Service</a></li>
             <li class="nav-link"><a href="team.html">Team</a></li>
-            <li class="nav-link"><a href="./login_reg/signin.html">Sign In</a></li>
+
+            <?php if (isset($_SESSION['username'])): ?>
+              <li class="nav-link"><a href="./sign in/logout.php">Logout</a></li>
+            <?php else: ?>
+            <li class="nav-link"><a href="./sign in/signin.php">Sign In</a></li>
+            <?php endif; ?>
+
             <li id="open" onclick="openSlider()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
           </ul>
         </div>
