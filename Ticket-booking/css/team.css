@@ -1,0 +1,65 @@
+
+.team-container{
+    /* border: 2px solid red; */
+    min-height: 100dvh;
+    text-align: center;
+    background-color: #f3ecec;
+}
+
+.team-title h1{
+    font-size: clamp(1em, 3vw + 1em, 4em);
+    padding: 1em;
+    color: var(--pure-dark);
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+
+.team-contact h2, .team-contact h4{
+    color: #18181a;
+}
+
+.team-card img{
+    /* background-color: #ffffff; */
+    max-width: 100%;
+    border-radius: 5px;
+    aspect-ratio: 9/11;    
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0.5); */
+}
+
+.team-profile{
+    border-radius: 10px;
+}
+
+.team-contact{
+    margin: 1em;
+    border-radius: 5px;
+    /* background-color: #ddd; */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+}
+
+.team-icon{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.team-contact svg{
+    fill: #222224;
+    transition: 300ms ease;
+}
+
+.team-contact svg:hover{
+    transform: scale(1.1);
+    fill: rgb(28, 28, 230);
+}
