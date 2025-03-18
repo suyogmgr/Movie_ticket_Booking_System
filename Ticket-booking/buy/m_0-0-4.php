@@ -41,7 +41,7 @@ if (!isset($_SESSION['username'])) {
                         </ul>
                     </li>
                     <li class="nav-link"><a href="#">Customer Service</a></li>
-                    <li class="nav-link"><a href="team.html">Team</a></li>
+                    <li class="nav-link"><a href="team.php">Team</a></li>
 
                     <?php if (isset($_SESSION['username'])): ?>
                         <li class="nav-link"><a href="../sign in/logout.php">Logout</a></li>
@@ -88,7 +88,7 @@ if (!isset($_SESSION['username'])) {
                     <!-- Movie 1: Purna Bahadur Ko Sarangi -->
                     <div class="movie">
                         <div class="movie-img">
-                            <img src="../assets/4.jpg" alt="Purna Bahadur Ko Sarangi">
+                            <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/4.jpg" alt="Purna Bahadur Ko Sarangi">
                         </div>
                         <div class="movie-details">
                             <h2>Purna Bahadur Ko Sarangi</h2>

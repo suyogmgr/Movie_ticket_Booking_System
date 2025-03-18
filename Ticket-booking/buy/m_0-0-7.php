@@ -41,7 +41,7 @@ if (!isset($_SESSION['username'])) {
                         </ul>
                     </li>
                     <li class="nav-link"><a href="#">Customer Service</a></li>
-                    <li class="nav-link"><a href="team.html">Team</a></li>
+                    <li class="nav-link"><a href="team.php">Team</a></li>
 
                     <?php if (isset($_SESSION['username'])): ?>
                         <li class="nav-link"><a href="../sign in/logout.php">Logout</a></li>

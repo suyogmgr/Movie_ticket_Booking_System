@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +19,7 @@
       <div class="navbar">
         <div class="logo">
           <a href="index.php">
-            <h1>SUYOG.</h1>
+            <h1>SSGB.</h1>
           </a>
         </div>
         <ul class="nav-links">
@@ -28,8 +32,14 @@
             </ul>
           </li>
           <li class="nav-link"><a href="./service.html">Customer Service</a></li>
-          <li class="nav-link"><a href="./team.html">Team</a></li>
-          <li class="nav-link"><a href="./sign in/signin.php">Sign In</a></li>
+          <li class="nav-link"><a href="./team.php">Team</a></li>
+          
+          <?php if (isset($_SESSION['username'])): ?>
+              <li class="nav-link"><a href="./sign in/logout.php">Logout</a></li>
+            <?php else: ?>
+            <li class="nav-link"><a href="./sign in/signin.php">Sign In</a></li>
+            <?php endif; ?>
+
           <li id="open" onclick="openSlider()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e3e3e3">
               <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
             </svg></li>
@@ -62,7 +72,7 @@
               <div class="banner-text">
                 <h6>Now Showing</h6>
                 <h1>Rajagunj</h1>
-                <button>Buy Now</button>
+                <button><a href="./buy/m_0-0-7.php">Buy Now</a></button>
               </div>
             </div>
 
@@ -73,7 +83,7 @@
               <div class="banner-text">
                 <h6>Now Showing</h6>
                 <h1>Anjila</h1>
-                <button>Buy Now</button>
+                <button><a href="./buy/m_0-0-2.php">Buy Now</a></button>
               </div>
             </div>
 
@@ -84,7 +94,7 @@
               <div class="banner-text">
                 <h6>Now Showing</h6>
                 <h1>Outlaw-Dafa 219</h1>
-                <button>Buy Now</button>
+                <button><a href="./buy/m_0-0-8.php">Buy Now</a></button>
               </div>
             </div>
 
@@ -95,7 +105,7 @@
               <div class="banner-text">
                 <h6>Now Showing</h6>
                 <h1>Rajagunj</h1>
-                <button>Buy Now</button>
+                <button><a href="./buy/m_0-0-7.php">Buy Now</a></button>
               </div>
             </div>
 
@@ -106,7 +116,7 @@
               <div class="banner-text">
                 <h6>Now Showing</h6>
                 <h1>Outlaw- Dafa 219</h1>
-                <button>Buy Now</button>
+                <button><a href="./buy/m_0-0-8.php">Buy Now</a></button>
               </div>
             </div>
           </div>
@@ -236,7 +246,7 @@
       <div class="footer">
         <div class="footer-left">
           <div class="footer-logo">
-            <h1>SUYOG.</h1>
+            <h1>SSGB.</h1>
           </div>
         </div>
         <div class="footer-right">
@@ -246,7 +256,7 @@
               <ul>
                 <li><a href="#">Advertise With Us</a></li>
                 <li><a href="#">Become SRM Franchise</a></li>
-                <li><a href="#">CLUB QFX</a></li>
+                <li><a href="#">CLUB</a></li>
                 <li><a href="index.php">Movies</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Careers</a></li>
