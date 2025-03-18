@@ -88,15 +88,15 @@ if (!isset($_SESSION['username'])) {
                     <!-- Movie 1: Purna Bahadur Ko Sarangi -->
                     <div class="movie">
                         <div class="movie-img">
-                            <img src="../assets/4.jpg" alt="Purna Bahadur Ko Sarangi">
+                            <img src="../assets/2.jpg" alt="Purna Bahadur Ko Sarangi">
                         </div>
                         <div class="movie-details">
-                            <h2>Purna Bahadur Ko Sarangi</h2>
-                            <span>A heart-touching story about a musician's struggle and legacy.</span>
-                            <span><strong>Date:</strong> March 20, 2025</span>
-                            <span><strong>Time:</strong> 7:00 PM</span>
+                            <h2>Anjila</h2>
+                            <span>The movie "Anjila" is based on the real-life story of Anjila Tumbapo Subba, the captain and number one goalkeeper of Nepal's national women's football team.</span>
+                            <span><strong>Date:</strong> March 21, 2025</span>
+                            <span><strong>Time:</strong> 9:00 PM</span>
                             <div class="book-btn">
-                                <button onclick="bookTicket('Purna Bahadur Ko Sarangi', 'March 20, 2025', '7:00 PM')">Book Now</button>
+                                <button onclick="bookTicket('Anjila', 'March 21, 2025', '9:00 PM')">Book Now</button>
                             </div>
                         </div>
                     </div>

@@ -88,15 +88,15 @@ if (!isset($_SESSION['username'])) {
                     <!-- Movie 1: Purna Bahadur Ko Sarangi -->
                     <div class="movie">
                         <div class="movie-img">
-                            <img src="../assets/4.jpg" alt="Purna Bahadur Ko Sarangi">
+                            <img src="../assets/5.jpg" alt="Purna Bahadur Ko Sarangi">
                         </div>
                         <div class="movie-details">
-                            <h2>Purna Bahadur Ko Sarangi</h2>
-                            <span>A heart-touching story about a musician's struggle and legacy.</span>
-                            <span><strong>Date:</strong> March 20, 2025</span>
-                            <span><strong>Time:</strong> 7:00 PM</span>
+                            <h2>Mikey 17</h2>
+                            <span>Mickey 17, known as an "expendable," goes on a dangerous journey to colonize an ice planet.</span>
+                            <span><strong>Date:</strong> March 25, 2025</span>
+                            <span><strong>Time:</strong> 12:00 PM</span>
                             <div class="book-btn">
-                                <button onclick="bookTicket('Purna Bahadur Ko Sarangi', 'March 20, 2025', '7:00 PM')">Book Now</button>
+                                <button onclick="bookTicket('Mikey 17', 'March 25, 2025', '12:00 PM')">Book Now</button>
                             </div>
                         </div>
                     </div>

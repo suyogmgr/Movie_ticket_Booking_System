@@ -88,15 +88,15 @@ if (!isset($_SESSION['username'])) {
                     <!-- Movie 1: Purna Bahadur Ko Sarangi -->
                     <div class="movie">
                         <div class="movie-img">
-                            <img src="../assets/4.jpg" alt="Purna Bahadur Ko Sarangi">
+                            <img src="../assets/1.jpg" alt="Purna Bahadur Ko Sarangi">
                         </div>
                         <div class="movie-details">
-                            <h2>Purna Bahadur Ko Sarangi</h2>
-                            <span>A heart-touching story about a musician's struggle and legacy.</span>
+                            <h2>Laaj Sharanam</h2>
+                            <span>Laaj Sharanam is a Nepali movie, starring Sitaram Kattel, Bijay Baral, Arpan Thapa, Arjun, Sagar Lamsal and directed by Kumar Kattel.</span>
                             <span><strong>Date:</strong> March 20, 2025</span>
                             <span><strong>Time:</strong> 7:00 PM</span>
                             <div class="book-btn">
-                                <button onclick="bookTicket('Purna Bahadur Ko Sarangi', 'March 20, 2025', '7:00 PM')">Book Now</button>
+                                <button onclick="bookTicket('Laaj Sharanam', 'March 20, 2025', '7:00 PM')">Book Now</button>
                             </div>
                         </div>
                     </div>

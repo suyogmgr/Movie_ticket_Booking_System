@@ -88,15 +88,15 @@ if (!isset($_SESSION['username'])) {
                     <!-- Movie 1: Purna Bahadur Ko Sarangi -->
                     <div class="movie">
                         <div class="movie-img">
-                            <img src="../assets/4.jpg" alt="Purna Bahadur Ko Sarangi">
+                            <img src="../assets/6.jpg" alt="Purna Bahadur Ko Sarangi">
                         </div>
                         <div class="movie-details">
-                            <h2>Purna Bahadur Ko Sarangi</h2>
-                            <span>A heart-touching story about a musician's struggle and legacy.</span>
-                            <span><strong>Date:</strong> March 20, 2025</span>
+                            <h2>Hostel 3</h2>
+                            <span>Hostel 3 is the third installment from the movie franchise Hostel starring Paras Bam Thakuri, Ryhaan Giri, Padam Tamang & others, directed by Sashan Kandel.</span>
+                            <span><strong>Date:</strong> March 26, 2025</span>
                             <span><strong>Time:</strong> 7:00 PM</span>
                             <div class="book-btn">
-                                <button onclick="bookTicket('Purna Bahadur Ko Sarangi', 'March 20, 2025', '7:00 PM')">Book Now</button>
+                                <button onclick="bookTicket('Hostel 3', 'March 26, 2025', '7:00 PM')">Book Now</button>
                             </div>
                         </div>
                     </div>
