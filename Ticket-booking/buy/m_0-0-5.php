@@ -88,7 +88,7 @@ if (!isset($_SESSION['username'])) {
                     <!-- Movie 1: Purna Bahadur Ko Sarangi -->
                     <div class="movie">
                         <div class="movie-img">
-                            <img src="../assets/5.jpg" alt="Purna Bahadur Ko Sarangi">
+                            <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/5.jpg" alt="Purna Bahadur Ko Sarangi">
                         </div>
                         <div class="movie-details">
                             <h2>Mikey 17</h2>

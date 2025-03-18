@@ -29,8 +29,8 @@
                 <li><a href="comming_soon.php">Coming Soon</a></li>
               </ul>
             </li>
-            <li class="nav-link"><a href="#">Customer Service</a></li>
-            <li class="nav-link"><a href="team.html">Team</a></li>
+            <li class="nav-link"><a href="./service.html">Customer Service</a></li>
+            <li class="nav-link"><a href="./team.html">Team</a></li>
 
             <?php if (isset($_SESSION['username'])): ?>
               <li class="nav-link"><a href="./sign in/logout.php">Logout</a></li>
@@ -45,7 +45,7 @@
         <div class="sidebar">
           <ul class="side-links">
             <li class="side-link" onclick="closeSlider()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
-            <li class="side-link hover"><a href="#">Cusomer Service</a></li>
+            <li class="side-link hover"><a href="./service.html">Cusomer Service</a></li>
             <li class="side-link hover"><a href="#">Schedules</a></li>
             <li class="side-link hover"><a href="#">Offers</a></li>
             <li class="side-link hover"><a href="#">Privacy Policy</a></li>
@@ -61,8 +61,8 @@
             <div class="slide">
               <div class="slider">
                 <img
-                  src="./assets/1741675901266-rajagunjbanner.jpg"
-                  alt=""
+                  src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/1741675901266-rajagunjbanner.jpg"
+                  alt="banner"
                 />
                 <div class="banner-text">
                   <h6>Now Showing</h6>
@@ -73,8 +73,8 @@
     
               <div class="slider">
                 <img
-                  src="./assets/1741675747371-anjilabanner.jpg"
-                  alt=""
+                  src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/1741675747371-anjilabanner.jpg"
+                  alt="#"
                 />
                 <div class="banner-text">
                   <h6>Now Showing</h6>
@@ -85,8 +85,8 @@
     
               <div class="slider">
                 <img
-                  src="./assets/1741675829315-outlawbanner.jpg"
-                  alt=""
+                  src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/1741675829315-outlawbanner.jpg"
+                  alt="banner"
                 />
                 <div class="banner-text">
                   <h6>Now Showing</h6>
@@ -97,8 +97,8 @@
     
               <div class="slider">
                 <img
-                  src="./assets/1741675901266-rajagunjbanner.jpg"
-                  alt=""
+                  src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/1741675901266-rajagunjbanner.jpg"
+                  alt="banner"
                 />
                 <div class="banner-text">
                   <h6>Now Showing</h6>
@@ -109,8 +109,8 @@
     
               <div class="slider">
                 <img
-                  src="./assets/1741675747371-anjilabanner.jpg"
-                  alt=""
+                  src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/1741675829315-outlawbanner.jpg"
+                  alt="#"
                 />
                 <div class="banner-text">
                   <h6>Now Showing</h6>
@@ -140,7 +140,7 @@
             </div>
             <div class="movies">
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/1.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/1.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Laaj Sharanam</h2>
                   <span>Nepali | Social,Drama</span>
@@ -148,7 +148,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/2.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/2.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Anjila</h2>
                   <span>Nepali | Biography,Drama</span>
@@ -156,7 +156,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/3.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/3.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Chhaava</h2>
                   <span>Nepali | Drama,Action,History</span>
@@ -164,7 +164,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/4.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/4.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Purna Bahadurko Sarangi</h2>
                   <span>Nepali | Drama,Family</span>
@@ -172,7 +172,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/5.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/5.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Mikey 17</h2>
                   <span>Nepali | Adventure,Drama,Fantasy</span>
@@ -180,7 +180,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/6.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/6.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Hostel 3</h2>
                   <span>Nepali | Drama</span>
@@ -188,7 +188,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/7.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/7.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Rajagunj</h2>
                   <span>Nepali | Drama</span>
@@ -196,7 +196,7 @@
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
-                <img src="./assets/8.jpg" alt="movie-poster" loading="lazy">
+                <img src="https://raw.githubusercontent.com/suyogmgr/Movie_ticket_Booking_System/refs/heads/main/Ticket-booking/assets/8.jpg" alt="movie-poster" loading="lazy">
                 <div class="movie-info">
                   <h2>Outlaw-Dafa 2019</h2>
                   <span>Nepali | Action,Drama</span>
@@ -286,3 +286,5 @@
     </div>
   </body>
 </html>
+
+
