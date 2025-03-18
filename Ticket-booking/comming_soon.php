@@ -12,7 +12,7 @@
       <div class="app" id="app">
         <div class="navbar">
           <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
               <h1>SUYOG.</h1>
             </a>
           </div>
@@ -21,13 +21,13 @@
             <li class="nav-link dropdown">
               <a href="#">Movies</a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Now Showing</a></li>
-                <li><a href="comming_soon.html">Coming Soon</a></li>
+                <li><a href="index.php">Now Showing</a></li>
+                <li><a href="comming_soon.php">Coming Soon</a></li>
               </ul>
             </li>
             <li class="nav-link"><a href="#">Customer Service</a></li>
             <li class="nav-link"><a href="team.html">Team</a></li>
-            <li class="nav-link"><a href="#">Sign In</a></li>
+            <li class="nav-link"><a href="./sign in/signin.php">Sign In</a></li>
             <li id="open" onclick="openSlider()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
           </ul>
         </div>
@@ -41,7 +41,7 @@
               <li class="side-link hover"><a href="#">Privacy Policy</a></li>
               <li class="side-link hover"><a href="#">Terms and Services</a></li>
               <div class="login-btn">
-                <a href="#">Sign In</a>
+                <a href="./sign in/signin.php">Sign In</a>
               </div>
             </ul>
           </div>
@@ -236,7 +236,7 @@
                   <li><a href="#">Advertise With Us</a></li>
                   <li><a href="#">Become SRM Franchise</a></li>
                   <li><a href="#">CLUB QFX</a></li>
-                  <li><a href="index.html">Movies</a></li>
+                  <li><a href="index.php">Movies</a></li>
                   <li><a href="#">About</a></li>
                   <li><a href="#">Careers</a></li>
                 </ul>
@@ -245,8 +245,8 @@
               <div class="links-2">
                 <h4>What's ON</h4>
                 <ul>
-                  <li><a href="index.html">Now Showing</a></li>
-                  <li><a href="comming_soon.html">Coming Soon</a></li>
+                  <li><a href="index.php">Now Showing</a></li>
+                  <li><a href="comming_soon.php">Coming Soon</a></li>
                 </ul>
               </div>
 

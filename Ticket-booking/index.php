@@ -16,7 +16,7 @@
       <div class="app" id="app">
         <div class="navbar">
           <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
               <h1>SUYOG.</h1>
             </a>
           </div>
@@ -25,8 +25,8 @@
             <li class="nav-link dropdown">
               <a href="#">Movies</a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Now Showing</a></li>
-                <li><a href="comming_soon.html">Coming Soon</a></li>
+                <li><a href="index.php">Now Showing</a></li>
+                <li><a href="comming_soon.php">Coming Soon</a></li>
               </ul>
             </li>
             <li class="nav-link"><a href="#">Customer Service</a></li>
@@ -51,7 +51,7 @@
             <li class="side-link hover"><a href="#">Privacy Policy</a></li>
             <li class="side-link hover"><a href="#">Terms and Services</a></li>
             <div class="login-btn">
-              <a href="#">Sign In</a>
+              <a href="./sign in/signin.php">Sign In</a>
             </div>
           </ul>
         </div>
@@ -144,6 +144,7 @@
                 <div class="movie-info">
                   <h2>Laaj Sharanam</h2>
                   <span>Nepali | Social,Drama</span>
+                  <a href="./buy/m_0-0-1.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -151,6 +152,7 @@
                 <div class="movie-info">
                   <h2>Anjila</h2>
                   <span>Nepali | Biography,Drama</span>
+                  <a href="./buy/m_0-0-2.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -158,6 +160,7 @@
                 <div class="movie-info">
                   <h2>Chhaava</h2>
                   <span>Nepali | Drama,Action,History</span>
+                  <a href="./buy/m_0-0-3.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -165,6 +168,7 @@
                 <div class="movie-info">
                   <h2>Purna Bahadurko Sarangi</h2>
                   <span>Nepali | Drama,Family</span>
+                  <a href="./buy/m_0-0-4.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -172,6 +176,7 @@
                 <div class="movie-info">
                   <h2>Mikey 17</h2>
                   <span>Nepali | Adventure,Drama,Fantasy</span>
+                  <a href="./buy/m_0-0-5.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -179,6 +184,7 @@
                 <div class="movie-info">
                   <h2>Hostel 3</h2>
                   <span>Nepali | Drama</span>
+                  <a href="./buy/m_0-0-6.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -186,6 +192,7 @@
                 <div class="movie-info">
                   <h2>Rajagunj</h2>
                   <span>Nepali | Drama</span>
+                  <a href="./buy/m_0-0-7.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
               <div data-socials="Buy Now" class="movie-card">
@@ -193,6 +200,7 @@
                 <div class="movie-info">
                   <h2>Outlaw-Dafa 2019</h2>
                   <span>Nepali | Action,Drama</span>
+                  <a href="./buy/m_0-0-8.php" id="buy-now">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -212,7 +220,7 @@
                   <li><a href="#">Advertise With Us</a></li>
                   <li><a href="#">Become SRM Franchise</a></li>
                   <li><a href="#">CLUB QFX</a></li>
-                  <li><a href="index.html">Movies</a></li>
+                  <li><a href="index.php">Movies</a></li>
                   <li><a href="#">About</a></li>
                   <li><a href="#">Careers</a></li>
                 </ul>
@@ -221,8 +229,8 @@
               <div class="links-2">
                 <h4>What's ON</h4>
                 <ul>
-                  <li><a href="index.html">Now Showing</a></li>
-                  <li><a href="comming_soon.html">Coming Soon</a></li>
+                  <li><a href="index.php">Now Showing</a></li>
+                  <li><a href="comming_soon.php">Coming Soon</a></li>
                 </ul>
               </div>
 

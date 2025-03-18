@@ -378,6 +378,7 @@ body {
 
 .movie-info {
   text-align: center;
+  /* position: relative; */
   padding: 0.5em 0;
   min-height: 70px;
   overflow: hidden;
@@ -389,7 +390,33 @@ body {
   font-size: 0.9em;
 }
 
-.movie-card::after,
+#buy-now{
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  background-color: #52b2ba;
+  font-size: 1.2em;
+  z-index: 10;
+  color: var(--text-clr);
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  transform: translateY(0);
+  border: none;
+  opacity: 0;
+  transition: 300ms ease-in-out;
+}
+
+.movie-card:hover #buy-now{
+  transform: translateY(-200px);
+  opacity: 1;
+}
+
+#buy-now:hover{
+  background-color: #ddd;
+  color: #52b2ba;
+}
+
+/* .movie-card::after,
 .movie-card-cs::after {
   content: attr(data-socials);
   font-size: 1.2em;
@@ -410,7 +437,7 @@ body {
 .movie-card-cs:hover::after {
   transform: translate(-50%, 50%);
   opacity: 1;
-}
+} */
 
 /*====== FOOTER =======*/
 

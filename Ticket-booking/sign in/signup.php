@@ -7,6 +7,13 @@ require "db.php";
 $username = $phone_no = $pass = $email = '';
 $username_err = $phone_no_err = $pass_err = $email_err = '';
 
+
+if(isset($_SESSION['error'])){
+    echo "<script> alert('".$_SESSION['error']."'); </script>";
+    unset($_SESSION['error']);
+}
+
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     //username
@@ -16,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $username = trim(filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS));
 
         if (strlen($username) < 3) {
-            $username_err = "Username must be at least 3 characters long";
+            $username_err = "Username must be at least 3 characters";
         }
     }
 
@@ -35,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } elseif (ctype_digit($_POST["number"]) && strlen($_POST["number"]) >= 10 && strlen($_POST["number"]) <= 15) {
         $phone_no = trim($_POST["number"]);
     } else {
-        $phone_no_err = "Invalid phone number. It must be between 10 and 15 digits";
+        $phone_no_err = "Invalid phone number";
     }
 
     //Password
@@ -43,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $password_err = "Password";
     } else {
         if (strlen($_POST["password"]) < 8) {
-            $pass_err = "Password must be at least 8 characters";
+            $pass_err = "Password must be 8 characters";
         } else {
             $pass = trim($_POST["password"]);
         }

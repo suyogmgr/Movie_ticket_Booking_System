@@ -1,7 +1,7 @@
 <?php
     $host = 'localhost';
     $user = 'rana';
-    $pass = '';
+    $pass = '@Suyog123';
     $db_name = 'movie';
     $conn = '';
 
