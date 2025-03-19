@@ -57,8 +57,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $_SESSION['username'] = $row['user'];
                 $_SESSION['email'] = $row['email'];
                 $_SESSION['reg_date'] = $row['red_date'];
-
-                header("location: ../index.php");
+                $_SESSION['role'] = $row['role'];
+                
+                if($_SESSION['role'] === 'admin'){
+                    header("location: ./admin_dashboard.php");
+                }else{
+                    header("location: ../index.php");
+                }
                 exit;
             }else{
                 echo "<script> alert('Incorrect Password')</script>";
@@ -97,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
                 <div class="row">
                     <i class="fas fa-lock"></i>
-                    <input type="password" name="password" placeholder="<?php echo !empty($pass_err) ? htmlspecialchars($pass_err) : 'Password'; ?>" required>
+                    <input type="password" name="password" placeholder="<?php echo !empty($pass_err) ? htmlspecialchars($pass_err) : 'Password'; ?>">
                 </div>
                 <div class="row botton">
                     <input type="submit" value="LogIn">

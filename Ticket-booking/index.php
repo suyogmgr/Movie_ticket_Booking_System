@@ -49,7 +49,7 @@
             <li class="side-link hover"><a href="#">Schedules</a></li>
             <li class="side-link hover"><a href="#">Offers</a></li>
             <li class="side-link hover"><a href="#">Privacy Policy</a></li>
-            <li class="side-link hover"><a href="#">Terms and Services</a></li>
+            <li class="side-link hover"><a href="./terms_services.html">Terms and Services</a></li>
             <div class="login-btn">
             <?php if (isset($_SESSION['username'])): ?>
             <li><a href="./sign in/logout.php">Logout</a></li>

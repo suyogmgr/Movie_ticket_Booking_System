@@ -60,8 +60,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if(empty($username_err) && empty($email_err) && empty($password_err)){
         $hash = password_hash($pass, PASSWORD_DEFAULT);
         
-        $sql = "INSERT INTO users(user, email, phone, password) 
-        VALUES(?, ?, ?, ?)";
+        $sql = "INSERT INTO users(user, email, phone, password, role) 
+        VALUES(?, ?, ?, ?, 'user')";
 
         try{
             $stmt = mysqli_prepare($conn, $sql);
